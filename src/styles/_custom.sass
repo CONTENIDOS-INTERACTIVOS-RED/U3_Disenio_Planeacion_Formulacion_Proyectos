@@ -17,15 +17,16 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FEE3D8
   &-2
-    background-color: #FFFBE8
+    background-color: #D7E7F8
   &-3
-    background-color: #F0E9F6
+    background-color: #E5F8F8
   &-4
-    background-color: #EAF8FD
+    background-color: #FEF3D1
   &-5
-    background-color: #FFFBE8
+    background-color: #FEF0EA
+
   &-6
     background-color: #E3F3F4
     
@@ -64,7 +65,7 @@
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -107,15 +108,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-terciario, 24%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-terciario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-terciario, 25%) !important
 
 
 .anexo__texto
@@ -210,3 +211,25 @@ $custom-card-img-height: 322px
     border-left: 0px
   .fa-angle-up, .fa-angle-down
     display: block
+
+.bg-h80-p10
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 85%
+    transform: translateY(-9%)
+    background-color: #FEF3D1
+    z-index: 0
+  .col-lg-10, .row
+    z-index: 1
+
+
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
