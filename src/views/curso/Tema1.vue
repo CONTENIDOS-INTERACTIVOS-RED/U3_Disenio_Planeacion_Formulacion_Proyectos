@@ -62,11 +62,11 @@
         p(data-aos="fade-right") En los últimos años, se ha evidenciado un crecimiento notable en la demanda de alimentos saludables, particularmente de productos que cumplan con requisitos específicos como ser sin gluten, sin levadura, sin azúcar y sin lácteos. Este aumento responde a factores como una mayor prevalencia de diagnósticos de intolerancias alimenticias y enfermedades crónicas (diabetes, obesidad) y una creciente conciencia sobre la relación entre la alimentación y el bienestar. Sin embargo, las opciones disponibles para este segmento de mercado son limitadas, especialmente en productos de panadería, lo que representa un desafío significativo para los consumidores que buscan opciones seguras y saludables.
 
 
-    .row.justify-content-center.align-items-center.bg-h80-p10
+    .row.justify-content-center.align-items-center.bg-h80-p10.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center
           .col-lg-7(data-aos="fade-left")
-            h5 Planteamiento del problema
+            h3 Planteamiento del problema
             p.mb-0 ¿Cómo satisfacer la creciente demanda de productos de panadería saludables y sin alérgenos en un mercado donde la oferta actual no responde a las necesidades de los consumidores, asegurando altos estándares de calidad y accesibilidad?
           .col-lg-5(data-aos="zoom-in")
             img.img-fluid(src='@/assets/curso/tema1/6.svg', style="max-width:486px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
@@ -86,19 +86,22 @@
               figure
                 img(src="@/assets/curso/tema1/slider-1.png")
             .col-lg-7.order-lg-1
-              h5 Análisis de demanda
+              h3 Análisis de demanda
               p La demanda de productos saludables, especialmente los libres de alérgenos, ha crecido de manera significativa en los últimos años. Esto se debe al incremento de personas diagnosticadas con condiciones como intolerancia al gluten, intolerancia a la lactosa y diabetes, así como al interés de muchos consumidores en adoptar un estilo de vida más saludable. Este segmento busca productos que no solo sean seguros desde un punto de vista nutricional, sino también sabrosos y accesibles.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-2.png")
             .col-lg-7.order-lg-1
-              h5 Análisis de oferta
+              h3 Análisis de oferta
               p El mercado actual presenta una oferta limitada de productos de panadería que cumplan con los estándares requeridos por este tipo de consumidores. Si bien existen panaderías artesanales y algunos productos especializados en supermercados, la mayoría de estas opciones son importadas, costosas y, en muchos casos, no están diseñadas para un público masivo. Esto abre una oportunidad para que SanoDelight se posicione como una opción confiable y accesible.
 
     .bg-full-width.bg-fondo-1.mb-5
       .p-4.p-md-5
-        h3(data-aos="fade-right") Segmentación del mercado
+
+        #t_1_3.titulo-segundo(data-aos="flip-up")
+          h2 #[span 1.3] Segmentación del mercado
+        
         p(data-aos="fade-right") SanoDelight se dirigirá a los siguientes grupos:
 
 
@@ -173,9 +176,10 @@
                 img(src="@/assets/curso/tema1/11.svg", style="max-width: 300px").mx-auto
 
 
-    h3(data-aos="fade-right") Objetivo general
+    #t_1_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.4] Objetivo general
 
-    p(data-aos="fade-right") Desarrollar una panadería especializada en productos saludables y libres de alérgenos bajo la marca SanoDelight , satisfaciendo las necesidades de consumidores con restricciones alimenticias y promoviendo un estilo de vida saludable.
+    p(data-aos="fade-right") Desarrollar una panadería especializada en productos saludables y libres de alérgenos bajo la marca SanoDelight, satisfaciendo las necesidades de consumidores con restricciones alimenticias y promoviendo un estilo de vida saludable.
 
     p(data-aos="fade-right") #[strong Los objetivos específicos como:]
 
@@ -205,9 +209,10 @@
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
-            h3(data-aos="fade-right") Justificación
+            #t_1_5.titulo-segundo(data-aos="flip-up")
+              h2 #[span 1.5] Justificación
 
-            .bg-color-3.p-4(data-aos="fade-left").mb-4
+            .bg-color-3.p-4(data-aos="fade-left").mb-5
               .row.align-items-start
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/15.svg", style="max-width: 90px").mx-auto
@@ -215,7 +220,8 @@
                   p.mb-0 El proyecto responde a la creciente necesidad de opciones alimenticias inclusivas y saludables. Además, ofrece una oportunidad de negocio rentable al atender un mercado desatendido, generando empleo y fortaleciendo el compromiso con la comunidad.
 
 
-            h3(data-aos="fade-right") Análisis de viabilidad
+            #t_1_6.titulo-segundo(data-aos="flip-up")
+              h2 #[span 1.6] Análisis de viabilidad
 
             p(data-aos="fade-right") El análisis de viabilidad asegura que SanoDelight  opere eficientemente y cumpla con los estándares más altos en la producción de alimentos saludables:
 
@@ -243,12 +249,12 @@
           .div(titulo="Protocolos de higiene")
             p Estrategias de limpieza y mantenimiento para mantener condiciones óptimas en la operación.
 
-
+    h2.mb-4(data-aos="flip-up") Viabilidad económica
     .bg-full-width.bg-color-2.mb-lg-5
-      .px-4.p-md-5
+      .px-4.px-md-5.py-4
         .row.justify-content-center.align-items-center
           .col-lg-8
-            h2.mb-4(data-aos="flip-up") Viabilidad económica
+            
             p.mb-4(data-aos="fade-right") Se invita a leer el documento sobre #[b Viabilidad económica], que presenta un análisis detallado de la inversión inicial, los costos proyectados y los ingresos estimados al primer año de operación. Se incluye un estado de resultados proyectado que refleja una utilidad neta de $6,020 USD y un balance general que evidencia una sólida estructura financiera con activos por $31,000 USD. Este análisis permite evaluar la rentabilidad y sostenibilidad del proyecto, proporcionando herramientas clave para la toma de decisiones estratégicas.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
@@ -260,6 +266,11 @@
           .col-lg-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/18.png', alt='')
+
+
+    h2.mb-4(data-aos="flip-up") Viabilidad legal
+
+    p(data-aos="fade-right") Para garantizar la operatividad del proyecto y cumplir con los estándares de calidad, SanoDelight se centrará en los siguientes elementos:
 
 
     .bg-full-width.bg-fondo-2
@@ -298,24 +309,79 @@
 
     p(data-aos="fade-right").mb-5 Estos elementos aseguran que SanoDelight  opere dentro del marco legal, protegiendo tanto a los consumidores como a la empresa.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
 
-        .bg-color-white.shadow-soft.py-4.px-lg-5
-          .row.justify-content-around.align-items-center
-            .col-md-auto
-              img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Análisis de viabilidad
-                  p En el documento se abordan las estrategias de viabilidad ambiental y administrativa para SanoDelight, centradas en la sostenibilidad y la eficiencia operativa.
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-arrow-right
+    h2.mb-4(data-aos="flip-up").mb-4 Viabilidad ambiental
 
-    h3(data-aos="fade-right") Monitoreo y mejora
+    p(data-aos="fade-right").mb-4 Para mitigar el impacto ambiental y promover la sostenibilidad, SanoDelight implementará las siguientes medidas:
+
+
+    ul.lista-ul--color.color-dark.mb-5
+      li.mb-0
+        i.fas.fa-arrow-circle-right
+        | #[b Gestión de residuos orgánicos:] Implementación de un sistema de compostaje para reutilizar desechos de producción en fertilización.
+      li.mb-0
+        i.fas.fa-arrow-circle-right
+        | #[b Empaques biodegradables:] Uso de materiales biodegradables o reciclables para reducir residuos plásticos.
+      li.mb-0
+        i.fas.fa-arrow-circle-right
+        | #[b Reciclaje de desechos no orgánicos:] Colaboración con empresas locales para garantizar la correcta disposición de materiales reciclables.
+      li.mb-0
+        i.fas.fa-arrow-circle-right
+        | #[b Eficiencia energética:] Adquisición de equipos de alta eficiencia para minimizar el consumo de electricidad.
+      li.mb-0
+        i.fas.fa-arrow-circle-right
+        | #[b Energías renovables:] Instalación de paneles solares para reducir la dependencia de fuentes de energía no renovables.
+      li.mb-0
+        i.fas.fa-arrow-circle-right
+        | #[b Ingredientes orgánicos y sostenibles:] Compra de insumos de proveedores responsables, certificados como orgánicos o de comercio justo.
+
+
+    h2.mb-4(data-aos="flip-up").mb-4 Viabilidad administrativa
+
+    .bg-full-width.bg-color-4.mb-lg-5
+      .px-4.px-md-5.py-4.py-lg-5
+
+        p(data-aos="fade-right") La estructura administrativa garantizará una operación eficiente y organizada, con un enfoque en la calidad y el crecimiento sostenible:
+
+        ul.lista-ul--color.color-dark.mb-4
+          li.mb-0
+            i.fas.fa-arrow-circle-right
+            | #[b Estructura organizacional:] Definición de roles claros para optimizar la operatividad, desde la producción hasta la gestión comercial.
+          li.mb-0
+            i.fas.fa-arrow-circle-right
+            | #[b Selección de personal:] Contratación de personal con experiencia en panadería saludable y formación continua en seguridad alimentaria.
+          li.mb-0
+            i.fas.fa-arrow-circle-right
+            | #[b Sistemas de control:] Implementación de sistemas de gestión para monitorear la producción, la calidad y las finanzas del negocio.
+          li.mb-0
+            i.fas.fa-arrow-circle-right
+            | #[b Planes de formación continua:] Programas de capacitación periódica para mantener a los empleados actualizados en tendencias y normativas.
+          li.mb-0
+            i.fas.fa-arrow-circle-right
+            | #[b Elementos corporativos:] Creación de políticas internas que garanticen la transparencia y el cumplimiento de objetivos estratégicos.
+    
+
+
+
+    //- .row.justify-content-center.align-items-center.mb-5
+    //-   .col-lg-9
+
+    //-     .bg-color-white.shadow-soft.py-4.px-lg-5
+    //-       .row.justify-content-around.align-items-center
+    //-         .col-md-auto
+    //-           img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
+    //-         .col
+    //-           .row.justify-content-between.align-items-center
+    //-             .col.mb-3.mb-sm-0
+    //-               h3.mb-1 Análisis de viabilidad
+    //-               p En el documento se abordan las estrategias de viabilidad ambiental y administrativa para SanoDelight, centradas en la sostenibilidad y la eficiencia operativa.
+    //-             .col-sm-auto
+    //-               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
+    //-                 span Ver más
+    //-                 i.fas.fa-arrow-right
+
+    #t_1_7.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.7] Monitoreo y mejora
 
     p(data-aos="fade-right") Se establecerá un sistema de evaluación continua para medir el desempeño en todas las áreas, garantizando un enfoque en la mejora constante y la adaptabilidad a las necesidades del mercado.
 
@@ -323,7 +389,7 @@
 
     .titulo-figura.mb-2
       h5(data-aos="fade-right") Figura 1.
-      span Ejemplo: Matriz marco lógico para un proyecto social
+      span Estructura organizacional SanoDelight
 
     .bg-color-info.px-4.py-5.mb-5
       .row.justify-content-center.align-items-center
@@ -359,10 +425,11 @@
           .div(titulo="Logotipo")
             p El logotipo reflejará los valores fundamentales de la marca, como salud, frescura, calidad y sostenibilidad. Usará colores naturales y frescos (verde para lo orgánico y saludable) y tonos cálidos (representativos de la panadería y tradición). El diseño será simple, moderno y versátil para distintos medios (etiquetas, empaques, redes sociales, etc.).
 
+    p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
+
 
     .row.align-items-start.mb-5
       .col-lg-8
-        p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
 
         AcordionA(tipo="b")
           .div(titulo="Colores Corporativos")
@@ -376,27 +443,25 @@
           .div(titulo="Visión")
             p Ser la panadería líder en productos saludables en la región, destacándose por la innovación, la sostenibilidad y el compromiso con la salud de nuestros clientes.
 
+          .div(titulo="Valores")
+            ul.lista-ul--color.color-dark.mb-4
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | #[b Salud y bienestar:] Compromiso con la creación de productos que promuevan un estilo de vida saludable.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | #[b Sostenibilidad:] Uso de ingredientes orgánicos y sostenibles, y prácticas de producción respetuosas con el medio ambiente.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | #[b Calidad:] Enfoque en la calidad de los productos y el servicio al cliente.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | #[b Innovación:] Búsqueda constante de nuevas fórmulas y productos que se ajusten a las necesidades cambiantes de los consumidores.
+            
+
       .col-lg-4
         figure
           img(src="@/assets/curso/tema1/26.png", alt="").mb-4.mb-lg-0
-
-
-    .bg-full-width.bg-color-2.mb-lg-5
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-5
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/27.png', alt='')
-          .col-lg-7
-            h2.mb-4(data-aos="flip-up") Planificación del Proyecto
-            p.mb-4(data-aos="fade-right") En el documento se detalla el plan para la apertura de SanoDelight, un proyecto que se desarrollará en un plazo de 6 meses mediante un cronograma visualizado con un diagrama de Gantt. Las etapas clave incluyen el desarrollo del producto, desde la selección de ingredientes hasta los ajustes finales de las recetas, garantizando calidad y beneficios nutricionales.
-
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Planificación del Proyecto.
-
 
     .row.mb-5
       .col-lg-7
@@ -414,11 +479,34 @@
         figure
           img(src="@/assets/curso/tema1/28.svg", data-aos="zoom-in").mt-4.mt-lg-0
 
+    #t_1_8.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.8] Planificación del Proyecto
 
-    h3(data-aos="fade-right") Evaluación y cierre
+    .bg-full-width.bg-color-2.mb-lg-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/27.png', alt='')
+          .col-lg-8
+
+            p.mb-4(data-aos="fade-right") En el documento se detalla el plan para la apertura de SanoDelight, un proyecto que se desarrollará en un plazo de 6 meses mediante un cronograma visualizado con un diagrama de Gantt. Las etapas clave incluyen el desarrollo del producto, desde la selección de ingredientes hasta los ajustes finales de las recetas, garantizando calidad y beneficios nutricionales.
+
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Planificación del Proyecto.
+
+
+
+
+    #t_1_9.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.9] Evaluación y cierre
+
     .row.mb-5
       .col-lg-8
-        p(data-aos="fade-left") La fase de evaluación y cierre en el proyecto SanoDelight es fundamental para medir los resultados obtenidos, identificar aprendizajes clave y establecer mejoras para futuras operaciones o expansiones. Esta etapa incluye tanto la comparación de resultados con los objetivos establecidos como la documentación de lecciones aprendidas para garantizar la sostenibilidad y crecimiento del negocio.
+        p(data-aos="fade-left").mb-5 La fase de evaluación y cierre en el proyecto SanoDelight es fundamental para medir los resultados obtenidos, identificar aprendizajes clave y establecer mejoras para futuras operaciones o expansiones. Esta etapa incluye tanto la comparación de resultados con los objetivos establecidos como la documentación de lecciones aprendidas para garantizar la sostenibilidad y crecimiento del negocio.
 
         h3(data-aos="fade-right") Evaluación de resultados en SanoDelight
 
@@ -427,7 +515,8 @@
             .col-lg-auto
               img(src="@/assets/curso/tema1/30.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 En conclusión, esta unidad proporciona una base sólida en la teoría y práctica de la resolución de conflictos, preparándonos para contribuir a la creación de ambientes de paz y entendimiento en los futuros contextos personales y profesionales.
+              p.mb-0 Se evalúan los indicadores clave de desempeño financiero y de mercado con base en las metas establecidas al inicio del proyecto. A continuación, se resume las áreas de enfoque:
+
       .col-lg-4
         figure
           img(src="@/assets/curso/tema1/29.png", data-aos="zoom-in")
@@ -441,39 +530,39 @@
               figure
                 img(src="@/assets/curso/tema1/slider-1-2.png")
             .col-lg-7.order-lg-1
-              h5 Comparación de ingresos vs. Objetivos
+              h3 Comparación de ingresos vs. Objetivos
               p Análisis de si los ingresos generados cumplen o superan las metas financieras iniciales.
           .row.align-items-start.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-2-2.png")
             .col-lg-7.order-lg-1
-              h5 Rentabilidad neta
+              h3 Rentabilidad neta
               p Cálculo del margen de ganancia después de cubrir costos operativos.
           .row.align-items-start.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-3-2.png")
             .col-lg-7.order-lg-1
-              h5 Cumplimiento de objetivos de mercado
+              h3 Cumplimiento de objetivos de mercado
               p Evaluación del alcance de la cuota de mercado y cantidad de clientes previstos.
           .row.align-items-start.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-4-2.png")
             .col-lg-7.order-lg-1
-              h5 Retorno sobre la inversión (ROI)
+              h3 Retorno sobre la inversión (ROI)
               p Medición del impacto financiero de las inversiones iniciales frente a los ingresos generados.
           .row.align-items-start.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-5-2.png")
             .col-lg-7.order-lg-1
-              h5 Indicadores de desempeño
+              h3 Indicadores de desempeño
               p Revisión de ventas, satisfacción del cliente y calidad del producto frente a los objetivos iniciales. 
 
 
-    h3(data-aos="fade-right") Lecciones aprendidas en SanoDelight
+    h2(data-aos="fade-right") Lecciones aprendidas en SanoDelight
     p(data-aos="fade-right") Esta parte identifica las fortalezas del proyecto y las áreas a mejorar, facilitando la planificación de futuras expansiones o adaptaciones. A continuación, una tabla con los puntos clave:
 
     .bg-full-width.bg-color-info.mb-5

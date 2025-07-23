@@ -30,6 +30,48 @@ export default {
             titulo: 'Estudio de mercado',
             hash: 't_1_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Segmentación del mercado',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Objetivo general',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Justificación',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Análisis de viabilidad',
+            hash: 't_1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Monitoreo y mejora',
+            hash: 't_1_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Planificación del proyecto',
+            hash: 't_1_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.9',
+            titulo: 'Evaluación y cierre',
+            hash: 't_1_9',
+          },
         ],
       },
       {
@@ -129,7 +171,7 @@ export default {
     {
       termino: 'Valor Actual Neto (VAN)',
       significado:
-        'indicador financiero que calcula el valor presente de los flujos futuros de efectivo menos la inversión inicial.',
+        'indicador financiero que calcula el valor presente de los flujos futuros de un proyecto, descontando la inversión inicial.',
     },
   ],
 }
